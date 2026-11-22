@@ -14,7 +14,7 @@ if "edit" not in st.session_state:
 
 if st.session_state.logged_in == True and st.session_state.edit == False:
     pg = st.navigation([
-        st.Page("pages/beranda.py", default=True),
+        st.Page("pages/Beranda.py", default=True),
         st.Page("pages/Cari_Manhwa.py"),
         st.Page("pages/Statistik.py"),
         st.Page("pages/Pengaturan.py")
