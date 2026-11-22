@@ -1,0 +1,22 @@
+[project]
+name = "makanlasikit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "71251179-MikaelMarlisvemba", email = "mikael.marlisvemba@ti.ukdw.ac.id" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "requests>=2.34.2",
+    "supabase>=2.34.1",
+]
+
+[project.scripts]
+makanlasikit = "makanlasikit:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
